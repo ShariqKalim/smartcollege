@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Tourney:wght@300&display=swap");
+body {
+  background-color: #f8f9fa;
+}
+
+#Id_Navbar {
+  border: 2px solid #3494db;
+  width: 150px;
+  text-align: center;
+  font-size: 20px;
+  color: #3494db;
+  border-radius: 5px;
+  line-height: 20px;
+  margin-top: 5px;
+  text-transform: Capitalize;
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.2);
+}
+#Logo_Navbar {
+  height: 30px;
+}
+
+#para_home {
+  font-family: "Tourney", cursive;
+}
+
+input:focus {
+  outline: 2px solid #3494db;
+}
+textarea:focus {
+  outline: 2px solid #3494db;
+}
+
+.active_navbar {
+  border-bottom: 2px solid #3494db;
+}
+
+@media (max-width: 352px) {
+  #Logo_Navbar {
+    width: 170px;
+  }
+}
+@media (max-width: 420px) {
+  #content_boxes div {
+    margin: 12px;
+    margin-left: 15px;
+    width: 290px;
+  }
+  #content_boxes img {
+    width: 60px;
+  }
+  #content_boxes h3 {
+    font-size: 15px;
+  }
+  #navbar_home {
+    width: 200px;
+  }
+}
+@media (min-width: 346px) and (max-width: 419px) {
+  #content_boxes {
+    width: 320px;
+  }
+}
+@media (max-width: 500px) {
+  #announcepara {
+    text-align: center;
+  }
+  .responsiveBoxes {
+    width: 300px;
+    margin-bottom: 50px;
+  }
+  .responsiveBoxes:last-child {
+    margin-top: -20px;
+  }
+}
+@media (max-width: 450px) {
+  .res_1 {
+    width: 300px;
+    margin-top: -20px;
+  }
+  .res_2 {
+    width: 300px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 760px) {
+  #responsiveHome1 {
+    display: none;
+  }
+  #responsiveHome1 h1,
+  h5 {
+    font-size: 20px;
+    margin-top: -100px;
+  }
+  #responsiveHome2 iframe {
+    display: none;
+  }
+  #boyimage {
+    display: none;
+  }
+  #responsiveHome3 {
+    margin-left: 105px;
+  }
+}
