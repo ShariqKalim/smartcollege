@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/" id="navbar_home">
             <img src="images/S.png" alt="logo" className="w-72 mt-2 ml-5" />

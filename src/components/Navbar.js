@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div className="container-fluid">
           <NavLink className="navbar-brand ml-5" to="/">
             <img src="images/s.png" alt="logo" id="Logo_Navbar" />
