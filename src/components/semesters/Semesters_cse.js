@@ -24,9 +24,9 @@ const Semesters_cse = () => {
           </div>
         </NavLink>
         <NavLink to="/sem_3_cse" className=" no-underline">
-          <div className="border-4 shadow-lg p-10 w-72 border-blue-200  mt-20 transform hover:scale-110">
-            <h1 className="text-gray-700">SEM - 3</h1>
-            <p className="text-gray-700">
+          <div className="border-4 shadow-lg p-10 w-72 border-blue-200 bg-gradient-to-b from-yellow-300 via-yellow-400 to-yellow-300  mt-20 transform hover:scale-110 ">
+            <h1 className="text-white">SEM - 3</h1>
+            <p className="text-white">
               If you are from third semester CSE department then select this
               block
             </p>
